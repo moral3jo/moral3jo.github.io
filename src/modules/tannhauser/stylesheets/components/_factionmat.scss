@@ -1,0 +1,40 @@
+.THFMfactionmat {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.THFMheader {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.THFMheader img {
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 4px 4px 10px 5px rgba(73, 88, 9, 0.774);
+  height: 60px;
+
+  @include responsive($lg) {
+    height: 100px;
+  }
+}
+
+.THFMDeckmats {
+  margin: 40px;
+  padding: 90px 0 0 0;
+}
+
+.THFMcharacterDeck {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+}

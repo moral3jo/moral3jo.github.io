@@ -1,0 +1,38 @@
+.THESeventsselection {
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.THESevents {
+  width: 30%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.THESevent {
+  margin: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.THESunselected {
+  height: 150px;
+  margin: 20px;
+  filter: grayscale(80%);
+}
+
+.THESselected {
+  height: 200px;
+  margin: 20px;
+}
